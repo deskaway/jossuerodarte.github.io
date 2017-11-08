@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+html 
+{
+  height: 100%;
+}
+body 
+{
+  min-height: 100%;
+  margin:0;
+  text-align: center;
+  background: url("ocean-waves.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: Quicksand;
+}
+hr  
+{
+  width: 300px;
+}
+p
+{ 
+  font-size: 30px; 
+}
+h1
+{ text-align: center;
+
+}
+.overlay 
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background: rgba(82, 82, 82, 0.4)
+}
+.wrapper
+{
+position:relative;
+}
+
+#offers
+{
+  text-align: center;
+  font-size: 11px;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  
+
+}
+
